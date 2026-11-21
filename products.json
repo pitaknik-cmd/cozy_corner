@@ -1,0 +1,102 @@
+[
+  {
+    "id": "spray-fresh-30",
+    "name": "Room Spray Fresh 30ml",
+    "mood": "fresh",
+    "type": "spray",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/fresh.jpg",
+    "description": "ขวดเล็กพกง่าย ฉีดแล้วห้องสดชื่นทันที เหมาะสำหรับลองก่อนตัดสินใจซื้อขวดใหญ่"
+  },
+  {
+    "id": "spray-fresh-100",
+    "name": "Room Spray Fresh 100ml",
+    "mood": "fresh",
+    "type": "spray",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/fresh.jpg",
+    "description": "ไซส์ใช้ประจำทุกเช้า ฉีดให้ห้องหอมสดชื่นได้ตลอดวัน"
+  },
+  {
+    "id": "spray-relax-30",
+    "name": "Room Spray Relax 30ml",
+    "mood": "relax",
+    "type": "spray",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/relax.jpg",
+    "description": "ไซส์ทดลองสำหรับคนที่อยากลองว่ากลิ่นผ่อนคลายช่วยให้คืนนี้หลับสบายขึ้นแค่ไหน"
+  },
+  {
+    "id": "spray-relax-100",
+    "name": "Room Spray Relax 100ml",
+    "mood": "relax",
+    "type": "spray",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/relax.jpg",
+    "description": "เพื่อนคู่หมอนประจำทุกคืน ฉีดรอบห้องก่อนนอนแล้วปล่อยให้ความสงบทำงาน"
+  },
+  {
+    "id": "spray-focus-30",
+    "name": "Room Spray Focus 30ml",
+    "mood": "focus",
+    "type": "spray",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/focus.jpg",
+    "description": "ขวดจิ๋วใส่กระเป๋าได้ ฉีดที่โต๊ะก่อนเปิดหนังสือเพื่อเรียกสมาธิกลับมา"
+  },
+  {
+    "id": "spray-focus-100",
+    "name": "Room Spray Focus 100ml",
+    "mood": "focus",
+    "type": "spray",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/focus.jpg",
+    "description": "ตัวช่วยประจำช่วงสอบ ฉีดรอบโต๊ะอ่านหนังสือแล้วอ่านได้ยาวๆ ไม่วอกแวก"
+  },
+  {
+    "id": "spray-romance-30",
+    "name": "Room Spray Romance 30ml",
+    "mood": "romance",
+    "type": "spray",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/romance.jpg",
+    "description": "กลิ่นหวานอุ่นในขวดเล็ก ใช้ลองก่อนวันพิเศษหรือให้เป็นของขวัญชิ้นเล็กๆ ก็ได้"
+  },
+  {
+    "id": "spray-romance-100",
+    "name": "Room Spray Romance 100ml",
+    "mood": "romance",
+    "type": "spray",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/romance.jpg",
+    "description": "ขวดใหญ่สำหรับคนที่อยากให้ห้องอบอุ่นหวานละมุนทุกวัน ไม่ต้องรอวันพิเศษ"
+  },
+  {
+    "id": "candle-relax",
+    "name": "เทียนหอม Relax",
+    "mood": "relax",
+    "type": "candle",
+    "size": null,
+    "price": 149,
+    "image": "images/relax.jpg",
+    "description": "แสงเทียนนวลตากับกลิ่นละมุน เปลี่ยนห้องให้เป็นมุมพักใจหลังวันยาวๆ"
+  },
+  {
+    "id": "candle-romance",
+    "name": "เทียนหอม Romance",
+    "mood": "romance",
+    "type": "candle",
+    "size": null,
+    "price": 149,
+    "image": "images/romance.jpg",
+    "description": "จุดเทียนแล้วให้แสงอุ่นกับกลิ่นหวานสร้างบรรยากาศ สำหรับมื้อค่ำในห้องหรือคืนพิเศษของสองเรา"
+  }
+]

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สินค้าทั้งหมด — Room Scent</title>
+  <meta name="description" content="Room Spray และเทียนหอมจาก Room Scent เลือกตามอารมณ์ Fresh, Relax, Focus, Romance">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== Header ========== -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">Room<span>·</span>Scent</a>
+
+      <button class="nav-toggle" type="button" aria-label="เปิดเมนู">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav">
+        <a href="index.html">หน้าแรก</a>
+        <a href="index.html#moods">เลือกตามอารมณ์</a>
+        <a href="product.html" class="is-active">สินค้าทั้งหมด</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+
+        <div class="section-head">
+          <span class="eyebrow">The Collection</span>
+          <h1>สินค้าทั้งหมด</h1>
+          <hr class="divider">
+          <p>Room Spray ไซส์ทดลอง 30ml และไซส์ใช้งาน 100ml พร้อมเทียนหอม เลือกกลิ่นตามอารมณ์ที่คุณต้องการ</p>
+        </div>
+
+        <!-- ปุ่มกรอง: script.js สร้างให้ -->
+        <div id="filter-bar" class="filters"></div>
+
+        <!-- การ์ดสินค้า: script.js สร้างให้ -->
+        <div id="product-list" class="product-grid"></div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <a href="index.html" class="logo">Room<span>·</span>Scent</a>
+      <p>เปลี่ยนห้องเล็กๆ ให้เป็นพื้นที่ของใจ</p>
+      <p>&copy; 2026 Room Scent</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สั่งซื้อสินค้า — Room Scent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== Header ========== -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">Room<span>·</span>Scent</a>
+
+      <button class="nav-toggle" type="button" aria-label="เปิดเมนู">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav">
+        <a href="index.html">หน้าแรก</a>
+        <a href="index.html#moods">เลือกตามอารมณ์</a>
+        <a href="product.html">สินค้าทั้งหมด</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--alt">
+      <div class="container">
+
+        <div class="section-head">
+          <span class="eyebrow">Place Your Order</span>
+          <h1>สั่งซื้อสินค้า</h1>
+          <hr class="divider">
+          <p>กรอกข้อมูลด้านล่าง แล้วเราจะติดต่อกลับเพื่อยืนยันคำสั่งซื้อและนัดรับสินค้า</p>
+        </div>
+
+        <form id="orderForm" class="form">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="customerName">ชื่อลูกค้า</label>
+              <input type="text" id="customerName" name="customerName"
+                     placeholder="ชื่อ-นามสกุล" autocomplete="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact">เบอร์โทร / Line</label>
+              <input type="text" id="contact" name="contact"
+                     placeholder="08x-xxx-xxxx หรือ Line ID" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="items">รายการสินค้า</label>
+            <input type="text" id="items" name="items"
+                   placeholder="เช่น Room Spray Relax 100ml" required>
+          </div>
+
+          <div class="form-group">
+            <label for="total">จำนวนเงินรวม (บาท)</label>
+            <input type="number" id="total" name="total"
+                   placeholder="0" min="0" step="1" inputmode="numeric" required>
+          </div>
+
+          <div class="form-group">
+            <label for="note">หมายเหตุ</label>
+            <textarea id="note" name="note"
+                      placeholder="เช่น ขอเพิ่มอีก 1 ขวด, สะดวกรับของช่วงเย็น"></textarea>
+          </div>
+
+          <p class="form-note">ยังไม่ต้องชำระเงินตอนนี้ เราจะติดต่อกลับเพื่อยืนยันยอดและช่องทางชำระเงิน</p>
+
+          <button type="submit" class="btn btn--primary btn--block mt-6">ยืนยันสั่งซื้อ</button>
+
+          <p class="text-center mt-6">
+            <a href="product.html" class="form-note">← กลับไปเลือกสินค้า</a>
+          </p>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <a href="index.html" class="logo">Room<span>·</span>Scent</a>
+      <p>เปลี่ยนห้องเล็กๆ ให้เป็นพื้นที่ของใจ</p>
+      <p>&copy; 2026 Room Scent</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
