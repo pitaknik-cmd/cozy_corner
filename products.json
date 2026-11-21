@@ -6,7 +6,7 @@
     "type": "spray",
     "size": "30ml",
     "price": 89,
-    "image": "images/fresh.jpg",
+    "image": "images/Fresh.jpeg",
     "description": "ขวดเล็กพกง่าย ฉีดแล้วห้องสดชื่นทันที เหมาะสำหรับลองก่อนตัดสินใจซื้อขวดใหญ่"
   },
   {
@@ -16,7 +16,7 @@
     "type": "spray",
     "size": "100ml",
     "price": 199,
-    "image": "images/fresh.jpg",
+    "image": "images/Fresh.jpeg",
     "description": "ไซส์ใช้ประจำทุกเช้า ฉีดให้ห้องหอมสดชื่นได้ตลอดวัน"
   },
   {
@@ -26,7 +26,7 @@
     "type": "spray",
     "size": "30ml",
     "price": 89,
-    "image": "images/relax.jpg",
+    "image": "images/Relax.jpeg",
     "description": "ไซส์ทดลองสำหรับคนที่อยากลองว่ากลิ่นผ่อนคลายช่วยให้คืนนี้หลับสบายขึ้นแค่ไหน"
   },
   {
@@ -36,7 +36,7 @@
     "type": "spray",
     "size": "100ml",
     "price": 199,
-    "image": "images/relax.jpg",
+    "image": "images/Relax.jpeg",
     "description": "เพื่อนคู่หมอนประจำทุกคืน ฉีดรอบห้องก่อนนอนแล้วปล่อยให้ความสงบทำงาน"
   },
   {
@@ -46,7 +46,7 @@
     "type": "spray",
     "size": "30ml",
     "price": 89,
-    "image": "images/focus.jpg",
+    "image": "images/Focus.jpeg",
     "description": "ขวดจิ๋วใส่กระเป๋าได้ ฉีดที่โต๊ะก่อนเปิดหนังสือเพื่อเรียกสมาธิกลับมา"
   },
   {
@@ -56,7 +56,7 @@
     "type": "spray",
     "size": "100ml",
     "price": 199,
-    "image": "images/focus.jpg",
+    "image": "images/Focus.jpeg",
     "description": "ตัวช่วยประจำช่วงสอบ ฉีดรอบโต๊ะอ่านหนังสือแล้วอ่านได้ยาวๆ ไม่วอกแวก"
   },
   {
@@ -66,7 +66,7 @@
     "type": "spray",
     "size": "30ml",
     "price": 89,
-    "image": "images/romance.jpg",
+    "image": "images/Romance.jpeg",
     "description": "กลิ่นหวานอุ่นในขวดเล็ก ใช้ลองก่อนวันพิเศษหรือให้เป็นของขวัญชิ้นเล็กๆ ก็ได้"
   },
   {
@@ -76,7 +76,7 @@
     "type": "spray",
     "size": "100ml",
     "price": 199,
-    "image": "images/romance.jpg",
+    "image": "images/Romance.jpeg",
     "description": "ขวดใหญ่สำหรับคนที่อยากให้ห้องอบอุ่นหวานละมุนทุกวัน ไม่ต้องรอวันพิเศษ"
   },
   {
@@ -86,7 +86,7 @@
     "type": "candle",
     "size": null,
     "price": 149,
-    "image": "images/relax.jpg",
+    "image": "images/Relax.jpeg",
     "description": "แสงเทียนนวลตากับกลิ่นละมุน เปลี่ยนห้องให้เป็นมุมพักใจหลังวันยาวๆ"
   },
   {
@@ -96,7 +96,7 @@
     "type": "candle",
     "size": null,
     "price": 149,
-    "image": "images/romance.jpg",
+    "image": "images/Romance.jpeg",
     "description": "จุดเทียนแล้วให้แสงอุ่นกับกลิ่นหวานสร้างบรรยากาศ สำหรับมื้อค่ำในห้องหรือคืนพิเศษของสองเรา"
   }
 ]
