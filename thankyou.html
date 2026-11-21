@@ -9,6 +9,8 @@
 </head>
 <body>
 
+  <div class="announce">ได้รับคำสั่งซื้อแล้ว เราจะติดต่อกลับเร็วๆ นี้</div>
+
   <!-- ========== Header ========== -->
   <header class="site-header">
     <div class="container">
@@ -19,29 +21,112 @@
       </button>
 
       <nav class="nav">
-        <a href="index.html">หน้าแรก</a>
         <a href="index.html#moods">เลือกตามอารมณ์</a>
+        <a href="index.html#ritual">ใช้ช่วงไหน</a>
         <a href="product.html">สินค้าทั้งหมด</a>
       </nav>
+
+      <a href="product.html" class="nav-cta">เลือกสินค้าเพิ่ม</a>
     </div>
   </header>
 
   <main>
-    <section class="hero hero--center">
+
+    <!-- ========== Thank you ========== -->
+    <section class="ty">
       <div class="container">
-        <div class="hero__inner">
-          <span class="eyebrow">Thank You</span>
-          <h1 class="hero__title">ขอบคุณสำหรับ<em>คำสั่งซื้อ</em></h1>
-          <hr class="divider">
-          <p class="hero__text">
+        <div class="ty__inner">
+
+          <div class="ty__icon">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="5 12.5 10 17.5 19 7"></polyline>
+            </svg>
+          </div>
+
+          <span class="kicker">Thank You</span>
+          <h1><span class="nowrap">ขอบคุณสำหรับ</span><wbr><span class="nowrap"><em>คำสั่งซื้อ</em></span></h1>
+          <p class="ty__lead">
             เราได้รับคำสั่งซื้อของคุณเรียบร้อยแล้ว
-            และจะติดต่อกลับทางเบอร์โทรหรือ Line เร็วๆ นี้
+            และจะติดต่อกลับทางเบอร์โทรหรือ Line ที่ให้ไว้
             เพื่อยืนยันรายการและนัดรับสินค้า
           </p>
-          <a href="index.html" class="btn">กลับหน้าแรก</a>
+
+          <div class="ty__actions">
+            <a href="index.html" class="btn btn--primary">กลับหน้าแรก</a>
+            <a href="product.html" class="btn btn--ghost">เลือกสินค้าเพิ่ม</a>
+          </div>
+
+          <div class="ty-steps">
+            <div class="ty-steps__item is-done">
+              <div class="ty-steps__no">01</div>
+              <div class="ty-steps__title">ได้รับคำสั่งซื้อ</div>
+              <p>รายการของคุณถูกบันทึกเรียบร้อยแล้ว</p>
+            </div>
+            <div class="ty-steps__item">
+              <div class="ty-steps__no">02</div>
+              <div class="ty-steps__title">ติดต่อกลับเพื่อยืนยัน</div>
+              <p>เราจะแจ้งยอดและช่องทางชำระเงินทางเบอร์โทรหรือ Line</p>
+            </div>
+            <div class="ty-steps__item">
+              <div class="ty-steps__no">03</div>
+              <div class="ty-steps__title">นัดรับสินค้า</div>
+              <p>ชำระเงินและนัดวันเวลารับสินค้าที่สะดวก</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
+
+    <!-- ========== While you wait ========== -->
+    <section class="ty-moods">
+      <div class="container">
+        <div class="h-head">
+          <div>
+            <span class="kicker">While You Wait</span>
+            <h2>ลองกลิ่นอื่นเพิ่มไหม</h2>
+          </div>
+          <p>ไซส์ทดลอง 30ml ราคา 89 บาท เหมาะสำหรับลองกลิ่นใหม่ให้ครบทั้ง 4 อารมณ์</p>
+        </div>
+
+        <div class="h-moods">
+          <a href="product.html?mood=fresh" class="h-mood mood-fresh">
+            <div class="h-mood__img"><div class="h-mood__crop" role="img" aria-label="ขวด Room Spray กลิ่น Fresh"></div></div>
+            <div class="h-mood__meta">
+              <span class="h-mood__no">01</span><span class="h-mood__line" aria-hidden="true"></span><span class="h-mood__en">FRESH</span>
+            </div>
+            <h3>สดชื่น</h3>
+            <span class="h-mood__link">ดูกลิ่นนี้</span>
+          </a>
+          <a href="product.html?mood=relax" class="h-mood mood-relax">
+            <div class="h-mood__img"><div class="h-mood__crop" role="img" aria-label="ขวด Room Spray กลิ่น Relax"></div></div>
+            <div class="h-mood__meta">
+              <span class="h-mood__no">02</span><span class="h-mood__line" aria-hidden="true"></span><span class="h-mood__en">RELAX</span>
+            </div>
+            <h3>ผ่อนคลาย หลับสบาย</h3>
+            <span class="h-mood__link">ดูกลิ่นนี้</span>
+          </a>
+          <a href="product.html?mood=focus" class="h-mood mood-focus">
+            <div class="h-mood__img"><div class="h-mood__crop" role="img" aria-label="ขวด Room Spray กลิ่น Focus"></div></div>
+            <div class="h-mood__meta">
+              <span class="h-mood__no">03</span><span class="h-mood__line" aria-hidden="true"></span><span class="h-mood__en">FOCUS</span>
+            </div>
+            <h3>มีสมาธิ</h3>
+            <span class="h-mood__link">ดูกลิ่นนี้</span>
+          </a>
+          <a href="product.html?mood=romance" class="h-mood mood-romance">
+            <div class="h-mood__img"><div class="h-mood__crop" role="img" aria-label="ขวด Room Spray กลิ่น Romance"></div></div>
+            <div class="h-mood__meta">
+              <span class="h-mood__no">04</span><span class="h-mood__line" aria-hidden="true"></span><span class="h-mood__en">ROMANCE</span>
+            </div>
+            <h3>โรแมนติก</h3>
+            <span class="h-mood__link">ดูกลิ่นนี้</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- ========== Footer ========== -->

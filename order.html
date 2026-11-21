@@ -8,6 +8,8 @@
 </head>
 <body>
 
+  <div class="announce">ยังไม่ต้องชำระเงินตอนสั่งซื้อ เราจะติดต่อกลับเพื่อยืนยันก่อน</div>
+
   <!-- ========== Header ========== -->
   <header class="site-header">
     <div class="container">
@@ -18,69 +20,113 @@
       </button>
 
       <nav class="nav">
-        <a href="index.html">หน้าแรก</a>
         <a href="index.html#moods">เลือกตามอารมณ์</a>
+        <a href="index.html#ritual">ใช้ช่วงไหน</a>
         <a href="product.html">สินค้าทั้งหมด</a>
       </nav>
+
+      <a href="product.html" class="nav-cta">เลือกสินค้าเพิ่ม</a>
     </div>
   </header>
 
   <main>
-    <section class="section section--alt">
-      <div class="container">
 
-        <div class="section-head">
-          <span class="eyebrow">Place Your Order</span>
-          <h1>สั่งซื้อสินค้า</h1>
-          <hr class="divider">
-          <p>กรอกข้อมูลด้านล่าง แล้วเราจะติดต่อกลับเพื่อยืนยันคำสั่งซื้อและนัดรับสินค้า</p>
+    <!-- ========== Page hero ========== -->
+    <section class="page-hero">
+      <div class="container page-hero__inner">
+        <div>
+          <div class="breadcrumb"><a href="index.html">หน้าแรก</a> / <a href="product.html">สินค้าทั้งหมด</a> / สั่งซื้อ</div>
+          <span class="kicker">Place Your Order</span>
+          <h1>อีกนิดเดียว<br>กลิ่นที่<em>ใช่</em>ก็จะถึงมือคุณ</h1>
         </div>
-
-        <form id="orderForm" class="form">
-
-          <div class="form-row">
-            <div class="form-group">
-              <label for="customerName">ชื่อลูกค้า</label>
-              <input type="text" id="customerName" name="customerName"
-                     placeholder="ชื่อ-นามสกุล" autocomplete="name" required>
-            </div>
-
-            <div class="form-group">
-              <label for="contact">เบอร์โทร / Line</label>
-              <input type="text" id="contact" name="contact"
-                     placeholder="08x-xxx-xxxx หรือ Line ID" required>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="items">รายการสินค้า</label>
-            <input type="text" id="items" name="items"
-                   placeholder="เช่น Room Spray Relax 100ml" required>
-          </div>
-
-          <div class="form-group">
-            <label for="total">จำนวนเงินรวม (บาท)</label>
-            <input type="number" id="total" name="total"
-                   placeholder="0" min="0" step="1" inputmode="numeric" required>
-          </div>
-
-          <div class="form-group">
-            <label for="note">หมายเหตุ</label>
-            <textarea id="note" name="note"
-                      placeholder="เช่น ขอเพิ่มอีก 1 ขวด, สะดวกรับของช่วงเย็น"></textarea>
-          </div>
-
-          <p class="form-note">ยังไม่ต้องชำระเงินตอนนี้ เราจะติดต่อกลับเพื่อยืนยันยอดและช่องทางชำระเงิน</p>
-
-          <button type="submit" class="btn btn--primary btn--block mt-6">ยืนยันสั่งซื้อ</button>
-
-          <p class="text-center mt-6">
-            <a href="product.html" class="form-note">← กลับไปเลือกสินค้า</a>
-          </p>
-        </form>
-
+        <p class="page-hero__lead">
+          กรอกข้อมูลสั้นๆ แล้วเราจะติดต่อกลับทางเบอร์โทรหรือ Line
+          เพื่อยืนยันรายการและนัดรับสินค้า
+        </p>
       </div>
     </section>
+
+    <div class="container order-layout">
+
+      <!-- ========== Form ========== -->
+      <form id="orderForm" class="form">
+        <h2 class="form__title">ข้อมูลการสั่งซื้อ</h2>
+        <p class="form__sub">ช่องรายการสินค้าและจำนวนเงินกรอกให้แล้ว แก้ไขได้ถ้าต้องการสั่งเพิ่ม</p>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="customerName">ชื่อลูกค้า</label>
+            <input type="text" id="customerName" name="customerName"
+                   placeholder="ชื่อ-นามสกุล" autocomplete="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact">เบอร์โทร / Line</label>
+            <input type="text" id="contact" name="contact"
+                   placeholder="08x-xxx-xxxx หรือ Line ID" required>
+          </div>
+        </div>
+
+        <hr class="form-divider">
+
+        <div class="form-group">
+          <label for="items">รายการสินค้า</label>
+          <input type="text" id="items" name="items"
+                 placeholder="เช่น Room Spray Relax 100ml" required>
+        </div>
+
+        <div class="form-group">
+          <label for="total">จำนวนเงินรวม (บาท)</label>
+          <input type="number" id="total" name="total"
+                 placeholder="0" min="0" step="1" inputmode="numeric" required>
+        </div>
+
+        <div class="form-group">
+          <label for="note">หมายเหตุ</label>
+          <textarea id="note" name="note"
+                    placeholder="เช่น ขอเพิ่มอีก 1 ขวด, สะดวกรับของช่วงเย็น"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--block mt-6">ยืนยันสั่งซื้อ</button>
+        <p class="form-note text-center mt-6">
+          <a href="product.html">← กลับไปเลือกสินค้า</a>
+        </p>
+      </form>
+
+      <!-- ========== Aside ========== -->
+      <aside class="order-aside">
+        <span class="kicker">What Happens Next</span>
+        <ol class="steps">
+          <li>
+            <span class="steps__no">01</span>
+            <div>
+              <div class="steps__title">เราได้รับคำสั่งซื้อ</div>
+              <p>หลังกดยืนยัน ระบบจะบันทึกรายการของคุณทันที</p>
+            </div>
+          </li>
+          <li>
+            <span class="steps__no">02</span>
+            <div>
+              <div class="steps__title">ติดต่อกลับเพื่อยืนยัน</div>
+              <p>เราจะติดต่อทางเบอร์โทรหรือ Line ที่ให้ไว้ เพื่อยืนยันรายการและยอดชำระ</p>
+            </div>
+          </li>
+          <li>
+            <span class="steps__no">03</span>
+            <div>
+              <div class="steps__title">นัดรับสินค้า</div>
+              <p>ชำระเงินและนัดวันเวลารับสินค้าที่สะดวก</p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="aside-note">
+          <strong>ยังไม่ต้องชำระเงินตอนนี้</strong><br>
+          เราจะแจ้งยอดและช่องทางชำระเงินเมื่อติดต่อกลับ
+        </div>
+      </aside>
+
+    </div>
   </main>
 
   <!-- ========== Footer ========== -->

@@ -4,10 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Room Scent — เปลี่ยนห้องเล็กๆ ให้เป็นพื้นที่ของใจ</title>
-  <meta name="description" content="Room Scent น้ำหอมปรับบรรยากาศห้องและเทียนหอม 4 อารมณ์ Fresh, Relax, Focus, Romance">
+  <meta name="description" content="Room Scent น้ำหอมปรับบรรยากาศห้องและเทียนหอม 4 อารมณ์ Fresh, Relax, Focus, Romance เริ่มต้น 89 บาท">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- ========== Announcement ========== -->
+  <div class="announce">ลองทุกกลิ่นด้วยไซส์ทดลอง 30ml เพียง 89 บาท</div>
 
   <!-- ========== Header ========== -->
   <header class="site-header">
@@ -19,82 +22,212 @@
       </button>
 
       <nav class="nav">
-        <a href="index.html" class="is-active">หน้าแรก</a>
         <a href="#moods">เลือกตามอารมณ์</a>
+        <a href="#ritual">ใช้ช่วงไหน</a>
         <a href="product.html">สินค้าทั้งหมด</a>
       </nav>
+
+      <a href="product.html" class="nav-cta">สั่งซื้อ</a>
     </div>
   </header>
 
   <main>
 
     <!-- ========== Hero ========== -->
-    <section class="hero hero--split">
-      <div class="container">
-        <div class="hero__inner">
-          <span class="eyebrow">Room Scent · Home Fragrance</span>
-          <h1 class="hero__title">
-            <span class="nowrap">เปลี่ยนห้องเล็กๆ</span> <span class="nowrap">ให้เป็น<em>พื้นที่ของใจ</em></span>
-            <span class="nowrap">ด้วยกลิ่นที่ใช่</span> <span class="nowrap">ในทุกโมเมนต์</span>
+    <section class="h-hero">
+      <div class="container h-hero__inner">
+
+        <div class="h-hero__text">
+          <span class="kicker">Home Fragrance · Bangkok</span>
+          <h1 class="h-hero__title">
+            <span class="nowrap">เปลี่ยนห้องเล็กๆ</span><br>
+            <span class="nowrap">ให้เป็น<em>พื้นที่ของใจ</em></span>
           </h1>
-          <hr class="divider">
-          <p class="hero__text">
-            Room Spray และเทียนหอม 4 อารมณ์ คัดมาให้เข้ากับทุกช่วงของวัน
-            ตั้งแต่เช้าที่สดชื่น คืนอ่านหนังสือ ไปจนถึงค่ำคืนพิเศษ
+          <p class="h-hero__lead">
+            ด้วยกลิ่นที่ใช่ในทุกโมเมนต์ — Room Spray และเทียนหอม 4 อารมณ์
+            สำหรับเช้าที่สดชื่น คืนอ่านหนังสือ ช่วงพักใจ และค่ำคืนพิเศษ
           </p>
-          <div class="hero__actions">
-            <a href="product.html" class="btn">ดูสินค้าทั้งหมด</a>
-            <a href="#moods" class="btn btn--ghost">เลือกตามอารมณ์</a>
+          <div class="h-hero__actions">
+            <a href="product.html" class="btn btn--primary">ดูสินค้าทั้งหมด</a>
+            <a href="#moods" class="btn btn--ghost">ค้นหากลิ่นของคุณ</a>
+          </div>
+
+          <div class="h-facts">
+            <div>
+              <div class="h-facts__num">4</div>
+              <div class="h-facts__label">อารมณ์ให้เลือก</div>
+            </div>
+            <div>
+              <div class="h-facts__num">30 / 100<small>ml</small></div>
+              <div class="h-facts__label">ไซส์ทดลองและไซส์ใช้งาน</div>
+            </div>
+            <div>
+              <div class="h-facts__num">89<small> บาท</small></div>
+              <div class="h-facts__label">ราคาเริ่มต้น</div>
+            </div>
           </div>
         </div>
 
-        <div class="hero__media">
+        <div class="h-hero__media">
           <img src="images/AllScents.jpeg"
-               alt="Room Spray ทั้ง 4 กลิ่น Fresh, Relax, Focus และ Romance">
+               alt="Room Spray ทั้ง 4 กลิ่น Fresh, Relax, Focus และ Romance วางบนถาดหินอ่อน">
+          <div class="h-badge">
+            <div class="h-badge__kicker">THE COLLECTION</div>
+            <div class="h-badge__text">Fresh · Relax<br>Focus · Romance</div>
+          </div>
         </div>
+
       </div>
     </section>
 
     <!-- ========== Moods ========== -->
-    <section class="section section--alt" id="moods">
+    <section class="h-section" id="moods">
       <div class="container">
-        <div class="section-head">
-          <span class="eyebrow">Find Your Mood</span>
-          <h2>เลือกกลิ่นตามอารมณ์</h2>
+        <div class="h-head">
+          <div>
+            <span class="kicker">Find Your Mood</span>
+            <h2>เลือกกลิ่นตามอารมณ์</h2>
+          </div>
           <p>แต่ละกลิ่นออกแบบมาสำหรับช่วงเวลาที่ต่างกัน เลือกอารมณ์ที่ใช่ แล้วให้ห้องของคุณเปลี่ยนตาม</p>
         </div>
 
-        <div class="mood-grid">
+        <div class="h-moods">
 
-          <a href="product.html?mood=fresh" class="mood-card mood-fresh">
-            <div class="mood-icon" aria-hidden="true">✧</div>
-            <span class="eyebrow">Fresh</span>
+          <a href="product.html?mood=fresh" class="h-mood mood-fresh">
+            <div class="h-mood__img"><div class="h-mood__crop" role="img" aria-label="ขวด Room Spray กลิ่น Fresh"></div></div>
+            <div class="h-mood__meta">
+              <span class="h-mood__no">01</span><span class="h-mood__line" aria-hidden="true"></span><span class="h-mood__en">FRESH</span>
+            </div>
             <h3>สดชื่น</h3>
-            <p>ให้ความรู้สึกเหมือนเปิดหน้าต่างรับลมเช้า กลิ่นสะอาดโปร่งโล่งช่วยให้ตื่นตัว พร้อมลุยทุกคลาสและทุกกิจกรรม</p>
+            <p>เหมือนเปิดหน้าต่างรับลมเช้า กลิ่นสะอาดโปร่งโล่ง ช่วยให้ตื่นตัวพร้อมลุยทุกคลาส</p>
+            <span class="h-mood__link">ดูกลิ่นนี้</span>
           </a>
 
-          <a href="product.html?mood=relax" class="mood-card mood-relax">
-            <div class="mood-icon" aria-hidden="true">☾</div>
-            <span class="eyebrow">Relax</span>
+          <a href="product.html?mood=relax" class="h-mood mood-relax">
+            <div class="h-mood__img"><div class="h-mood__crop" role="img" aria-label="ขวด Room Spray กลิ่น Relax"></div></div>
+            <div class="h-mood__meta">
+              <span class="h-mood__no">02</span><span class="h-mood__line" aria-hidden="true"></span><span class="h-mood__en">RELAX</span>
+            </div>
             <h3>ผ่อนคลาย หลับสบาย</h3>
-            <p>กลิ่นนุ่มละมุนช่วยให้ใจสงบลงหลังวันที่เหนื่อยล้า วางความกังวลไว้ข้างนอก แล้วพักให้เต็มที่จนถึงเช้า</p>
+            <p>กลิ่นนุ่มละมุนช่วยให้ใจสงบลงหลังวันเหนื่อยล้า วางความกังวลไว้ข้างนอก แล้วพักให้เต็มที่</p>
+            <span class="h-mood__link">ดูกลิ่นนี้</span>
           </a>
 
-          <a href="product.html?mood=focus" class="mood-card mood-focus">
-            <div class="mood-icon" aria-hidden="true">◎</div>
-            <span class="eyebrow">Focus</span>
+          <a href="product.html?mood=focus" class="h-mood mood-focus">
+            <div class="h-mood__img"><div class="h-mood__crop" role="img" aria-label="ขวด Room Spray กลิ่น Focus"></div></div>
+            <div class="h-mood__meta">
+              <span class="h-mood__no">03</span><span class="h-mood__line" aria-hidden="true"></span><span class="h-mood__en">FOCUS</span>
+            </div>
             <h3>มีสมาธิ</h3>
-            <p>กลิ่นเรียบง่ายช่วยดึงความสนใจกลับมาอยู่กับสิ่งที่ทำ เหมาะกับคืนอ่านหนังสือก่อนสอบหรือตอนปั่นงานที่ต้องโฟกัสเต็มที่</p>
+            <p>กลิ่นเรียบง่ายช่วยดึงความสนใจกลับมาอยู่กับสิ่งที่ทำ เหมาะกับคืนอ่านหนังสือก่อนสอบ</p>
+            <span class="h-mood__link">ดูกลิ่นนี้</span>
           </a>
 
-          <a href="product.html?mood=romance" class="mood-card mood-romance">
-            <div class="mood-icon" aria-hidden="true">♡</div>
-            <span class="eyebrow">Romance</span>
+          <a href="product.html?mood=romance" class="h-mood mood-romance">
+            <div class="h-mood__img"><div class="h-mood__crop" role="img" aria-label="ขวด Room Spray กลิ่น Romance"></div></div>
+            <div class="h-mood__meta">
+              <span class="h-mood__no">04</span><span class="h-mood__line" aria-hidden="true"></span><span class="h-mood__en">ROMANCE</span>
+            </div>
             <h3>โรแมนติก</h3>
-            <p>กลิ่นหวานอบอุ่นช่วยให้ช่วงเวลาสำคัญพิเศษขึ้น จะเป็นเดตในห้อง วันครบรอบ หรือค่ำคืนชิลๆ กับคนที่ใช่ก็ได้</p>
+            <p>กลิ่นหวานอบอุ่นสำหรับช่วงเวลาสำคัญ จะเป็นเดตในห้อง วันครบรอบ หรือค่ำคืนชิลๆ</p>
+            <span class="h-mood__link">ดูกลิ่นนี้</span>
           </a>
 
         </div>
+      </div>
+    </section>
+
+    <!-- ========== Ritual ========== -->
+    <section class="h-section h-section--cream" id="ritual">
+      <div class="container">
+        <div class="h-head h-head--center">
+          <span class="kicker">A Day with Room Scent</span>
+          <h2>หนึ่งวัน สี่กลิ่น</h2>
+          <p>ไม่ต้องเลือกแค่กลิ่นเดียว เปลี่ยนตามช่วงเวลาของวันได้เลย</p>
+        </div>
+
+        <div class="h-ritual">
+          <div class="h-ritual__item mood-fresh">
+            <div class="h-ritual__time"><span class="mood-dot" aria-hidden="true"></span>เช้า · ตื่นนอน</div>
+            <div class="h-ritual__name">Fresh</div>
+            <p>ฉีดรอบห้องตอนเปิดม่าน ให้วันใหม่เริ่มต้นอย่างโปร่งโล่ง</p>
+          </div>
+          <div class="h-ritual__item mood-focus">
+            <div class="h-ritual__time"><span class="mood-dot" aria-hidden="true"></span>บ่าย–ค่ำ · อ่านหนังสือ</div>
+            <div class="h-ritual__name">Focus</div>
+            <p>ฉีดรอบโต๊ะก่อนเปิดหนังสือ ช่วยให้จดจ่อกับงานตรงหน้า</p>
+          </div>
+          <div class="h-ritual__item mood-relax">
+            <div class="h-ritual__time"><span class="mood-dot" aria-hidden="true"></span>ก่อนนอน · พักผ่อน</div>
+            <div class="h-ritual__name">Relax</div>
+            <p>ฉีดเบาๆ รอบห้องนอน ปิดท้ายวันด้วยความสงบ</p>
+          </div>
+          <div class="h-ritual__item mood-romance">
+            <div class="h-ritual__time"><span class="mood-dot" aria-hidden="true"></span>คืนพิเศษ</div>
+            <div class="h-ritual__name">Romance</div>
+            <p>จุดเทียนหอม แล้วให้แสงอุ่นกับกลิ่นหวานสร้างบรรยากาศ</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== Collection & prices ========== -->
+    <section class="h-section" id="collection">
+      <div class="container h-collection">
+
+        <div class="h-collection__intro">
+          <span class="kicker">The Collection</span>
+          <h2 class="h-title">สินค้าและราคา</h2>
+          <p>ทุกกลิ่นมีไซส์ทดลองให้ลองก่อน ถูกใจแล้วค่อยขยับเป็นขวดใหญ่ สั่งซื้อได้ทันที ไม่ต้องชำระเงินจนกว่าเราจะติดต่อกลับ</p>
+          <a href="product.html" class="btn btn--primary">ดูสินค้าทั้งหมด</a>
+        </div>
+
+        <div class="h-prices">
+          <a href="product.html" class="h-price">
+            <div class="h-price__info">
+              <div class="h-price__name">Room Spray ไซส์ทดลอง</div>
+              <div class="h-price__desc">30ml · ขวดเล็กพกง่าย เหมาะสำหรับลองทุกกลิ่น</div>
+              <div class="h-price__dots" aria-label="มี 4 กลิ่น">
+                <span class="mood-dot mood-fresh"></span><span class="mood-dot mood-relax"></span><span class="mood-dot mood-focus"></span><span class="mood-dot mood-romance"></span>
+              </div>
+            </div>
+            <div class="h-price__amount">89<small> บาท</small></div>
+          </a>
+
+          <a href="product.html" class="h-price">
+            <div class="h-price__info">
+              <div class="h-price__name">Room Spray ไซส์ใช้งาน</div>
+              <div class="h-price__desc">100ml · ขวดใหญ่สำหรับใช้ประจำทุกวัน</div>
+              <div class="h-price__dots" aria-label="มี 4 กลิ่น">
+                <span class="mood-dot mood-fresh"></span><span class="mood-dot mood-relax"></span><span class="mood-dot mood-focus"></span><span class="mood-dot mood-romance"></span>
+              </div>
+            </div>
+            <div class="h-price__amount">199<small> บาท</small></div>
+          </a>
+
+          <a href="product.html" class="h-price">
+            <div class="h-price__info">
+              <div class="h-price__name">เทียนหอม</div>
+              <div class="h-price__desc">แสงเทียนนวลตาสำหรับมุมพักใจและคืนพิเศษ</div>
+              <div class="h-price__dots" aria-label="มี 2 กลิ่น">
+                <span class="mood-dot mood-relax"></span><span class="mood-dot mood-romance"></span>
+              </div>
+            </div>
+            <div class="h-price__amount">149<small> บาท</small></div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="h-cta">
+      <div class="container h-cta__inner">
+        <div>
+          <span class="kicker">Start with a Trial</span>
+          <h2>ยังไม่แน่ใจว่ากลิ่นไหนใช่?<br>เริ่มจากไซส์ทดลอง 89 บาท</h2>
+        </div>
+        <a href="product.html" class="btn btn--light">เลือกกลิ่นทดลอง</a>
       </div>
     </section>
 

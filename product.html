@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>สินค้าทั้งหมด — Room Scent</title>
-  <meta name="description" content="Room Spray และเทียนหอมจาก Room Scent เลือกตามอารมณ์ Fresh, Relax, Focus, Romance">
+  <meta name="description" content="Room Spray และเทียนหอมจาก Room Scent เลือกตามอารมณ์ Fresh, Relax, Focus, Romance เริ่มต้น 89 บาท">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <div class="announce">ลองทุกกลิ่นด้วยไซส์ทดลอง 30ml เพียง 89 บาท</div>
 
   <!-- ========== Header ========== -->
   <header class="site-header">
@@ -19,23 +21,35 @@
       </button>
 
       <nav class="nav">
-        <a href="index.html">หน้าแรก</a>
         <a href="index.html#moods">เลือกตามอารมณ์</a>
+        <a href="index.html#ritual">ใช้ช่วงไหน</a>
         <a href="product.html" class="is-active">สินค้าทั้งหมด</a>
       </nav>
+
+      <a href="#product-list" class="nav-cta">สั่งซื้อ</a>
     </div>
   </header>
 
   <main>
-    <section class="section">
-      <div class="container">
 
-        <div class="section-head">
-          <span class="eyebrow">The Collection</span>
-          <h1>สินค้าทั้งหมด</h1>
-          <hr class="divider">
-          <p>Room Spray ไซส์ทดลอง 30ml และไซส์ใช้งาน 100ml พร้อมเทียนหอม เลือกกลิ่นตามอารมณ์ที่คุณต้องการ</p>
+    <!-- ========== Page hero ========== -->
+    <section class="page-hero">
+      <div class="container page-hero__inner">
+        <div>
+          <div class="breadcrumb"><a href="index.html">หน้าแรก</a> / สินค้าทั้งหมด</div>
+          <span class="kicker">The Collection</span>
+          <h1>เลือกกลิ่นที่<em>ใช่</em>สำหรับคุณ</h1>
         </div>
+        <p class="page-hero__lead">
+          Room Spray ไซส์ทดลอง 30ml และไซส์ใช้งาน 100ml พร้อมเทียนหอม
+          กดเลือกอารมณ์ด้านล่างเพื่อดูเฉพาะกลิ่นที่ต้องการ
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== Products ========== -->
+    <section class="shop">
+      <div class="container">
 
         <!-- ปุ่มกรอง: script.js สร้างให้ -->
         <div id="filter-bar" class="filters"></div>
@@ -43,8 +57,39 @@
         <!-- การ์ดสินค้า: script.js สร้างให้ -->
         <div id="product-list" class="product-grid"></div>
 
+        <!-- เลือกไซส์ -->
+        <div class="size-guide">
+          <div class="size-guide__item">
+            <div class="size-guide__name">ไซส์ทดลอง 30ml</div>
+            <div class="size-guide__price">89<small> บาท</small></div>
+            <p>ขวดเล็กพกง่าย เหมาะสำหรับลองทุกกลิ่นก่อนตัดสินใจ หรือพกไปหอเพื่อน</p>
+          </div>
+          <div class="size-guide__item">
+            <div class="size-guide__name">ไซส์ใช้งาน 100ml</div>
+            <div class="size-guide__price">199<small> บาท</small></div>
+            <p>ขวดใหญ่สำหรับใช้ประจำทุกวัน เมื่อเจอกลิ่นที่ใช่แล้ว</p>
+          </div>
+          <div class="size-guide__item">
+            <div class="size-guide__name">เทียนหอม</div>
+            <div class="size-guide__price">149<small> บาท</small></div>
+            <p>กลิ่น Relax และ Romance สำหรับมุมพักใจและคืนพิเศษ</p>
+          </div>
+        </div>
+
       </div>
     </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="h-cta">
+      <div class="container h-cta__inner">
+        <div>
+          <span class="kicker">Start with a Trial</span>
+          <h2>ยังไม่แน่ใจว่ากลิ่นไหนใช่?<br>เริ่มจากไซส์ทดลอง 89 บาท</h2>
+        </div>
+        <a href="index.html#moods" class="btn btn--light">อ่านเรื่องแต่ละกลิ่น</a>
+      </div>
+    </section>
+
   </main>
 
   <!-- ========== Footer ========== -->
